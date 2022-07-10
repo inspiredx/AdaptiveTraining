@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1200px) {
+
+    .header {
+        background-color: azure;
+        width: 800px;
+    }
+
+    .article {
+        width: 190px;
+    }
+
+    .footer-item {
+        background-color: brown;
+
+
+        width: 290px;
+    }
+
+    .screen {
+        background-color: aliceblue;
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .header {
+        background-color: pink;
+        width: 600px;
+    }
+
+    .article {
+        background-color: yellowgreen;
+        width: 100px;
+    }
+
+    .footer-item {
+        background-color: red;
+        width: 150px;
+    }
+
+
+}

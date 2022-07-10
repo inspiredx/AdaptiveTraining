@@ -1,0 +1,60 @@
+.container {
+    max-width: 1200px;
+}
+
+.header {
+    background-color: #DEE0E6;
+    width: 100%;
+}
+
+.articles {
+    width: 100%;
+    margin-bottom: 87px;
+}
+
+.article {
+    width: 29%;
+}
+
+.footer-item {
+    width: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .article {
+        width: 40%;
+        background-color: gold;
+    }
+
+    .footer-item {
+        width: 90%;
+        height: 100px;
+        background-color: silver;
+    }
+
+    .screen {
+        width: 90%;
+        background-color: aliceblue;
+    }
+
+    .map {
+        width: 90%;
+        background-color: aliceblue;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .article {
+        width: 90%;
+    }
+
+    .footer-item {
+        width: 90%;
+        height: 100px;
+    }
+    
+}
